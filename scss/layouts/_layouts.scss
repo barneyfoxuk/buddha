@@ -1,0 +1,26 @@
+@import 'display';
+@import 'position';
+@import 'alignment';
+@import 'image';
+@import 'margin';
+@import 'padding';
+@import 'border';
+
+@mixin layouts($prefix) {
+
+    @include display($prefix);
+
+    @include position($prefix);
+
+    @include alignment($prefix);
+
+    @include image($prefix);
+
+    @include margin($prefix);
+
+    @include padding($prefix);
+
+    @include border($prefix);
+
+}
+

@@ -1,0 +1,22 @@
+{
+    "name": "karma-buddha",
+    "version": "0.2.0",
+    "main": "scss/layouts/index.scss",
+    "description": "Set of helpers to allow for a speedier workflow",
+
+    "private": true,
+
+    "repository": "git@git.kdigital.net:karmarama/buddha.git",
+
+    "author": {
+        "name": "Barney Fox",
+        "email": "barney@karmarama.com",
+        "url": "http://www.karmarama.com/"
+    },
+
+    "main": [
+        "components",
+        "scss"
+    ]
+
+}

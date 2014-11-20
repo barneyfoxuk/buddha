@@ -1,0 +1,221 @@
+@mixin margin($prefix) {
+
+    /*
+     * Margin helpers
+     */
+
+    .#{$prefix}m-xxs {
+        margin: $xxs;
+    }
+    .#{$prefix}m-xs {
+        margin: $xs;
+    }
+    .#{$prefix}m-sm {
+        margin: $sm;
+    }
+    .#{$prefix}m-md {
+        margin: $md;
+    }
+    .#{$prefix}m-lg {
+        margin: $lg;
+    }
+    .#{$prefix}m-xl {
+        margin: $xl;
+    }
+    .#{$prefix}m-xxl {
+        margin: $xxl;
+    }
+    .#{$prefix}m-n {
+        margin: 0;
+    }
+
+
+    .#{$prefix}m-l-none {
+        margin-left: 0;
+    }
+    .#{$prefix}m-l-xs {
+        margin-left: $xs;
+    }
+    .#{$prefix}m-l-sm {
+        margin-left: $sm;
+    }
+    .#{$prefix}m-l-md {
+        margin-left: $md;
+    }
+    .#{$prefix}m-l-lg {
+        margin-left: $lg;
+    }
+    .#{$prefix}m-l-xl {
+        margin-left: $xl;
+    }
+    .#{$prefix}m-xxl {
+        margin-left: $xxl;
+    }
+
+    .#{$prefix}m-l-n-xxs {
+        margin-left: -$xxs;
+    }
+    .#{$prefix}m-l-n-xs {
+        margin-left: -$xs;
+    }
+    .#{$prefix}m-l-n-sm {
+        margin-left: -$sm;
+    }
+    .#{$prefix}m-l-n-md {
+        margin-left: -$md;
+    }
+    .#{$prefix}m-l-n-lg {
+        margin-left: -$lg;
+    }
+    .#{$prefix}m-l-n-xl {
+        margin-left: -$xl;
+    }
+    .#{$prefix}m-l-xxl {
+        margin-left: -$xxl;
+    }
+
+
+    .#{$prefix}m-t-none {
+        margin-top: 0;
+    }
+    .#{$prefix}m-t-xxs {
+        margin-top: $xxs;
+    }
+    .#{$prefix}m-t-xs {
+        margin-top: $xs;
+    }
+    .#{$prefix}m-t-sm {
+        margin-top: $sm;
+    }
+    .#{$prefix}m-t-md {
+        margin-top: $md;
+    }
+    .#{$prefix}m-t-lg {
+        margin-top: $lg;
+    }
+    .#{$prefix}m-t-xl {
+        margin-top: $xl;
+    }
+    .#{$prefix}m-xxl {
+        margin-top: $xxl;
+    }
+
+    .#{$prefix}m-t-n-xxs {
+        margin-top: -$xxs;
+    }
+    .#{$prefix}m-t-n-xs {
+        margin-top: -$xs;
+    }
+    .#{$prefix}m-t-n-sm {
+        margin-top: -$sm;
+    }
+    .#{$prefix}m-t-n-md {
+        margin-top: -$md;
+    }
+    .#{$prefix}m-t-n-lg {
+        margin-top: -$lg;
+    }
+    .#{$prefix}m-t-n-xl {
+        margin-top: -$xl;
+    }
+    .#{$prefix}m-t-n-xxl {
+        margin-top: -$xxl;
+    }
+
+
+    .#{$prefix}m-r-none {
+        margin-right: 0;
+    }
+    .#{$prefix}m-r-xxs {
+        margin-right: $xxs;
+    }
+    .#{$prefix}m-r-xs {
+        margin-right: $xs;
+    }
+    .#{$prefix}m-r-sm {
+        margin-right: $sm;
+    }
+    .#{$prefix}m-r-md {
+        margin-right: $md;
+    }
+    .#{$prefix}m-r-lg {
+        margin-right: $lg;
+    }
+    .#{$prefix}m-r-xl {
+        margin-right: $xl;
+    }
+    .#{$prefix}m-r-xxl {
+        margin-right: $xxl;
+    }
+
+    .#{$prefix}m-r-n-xxs {
+        margin-right: -$xxs;
+    }
+    .#{$prefix}m-r-n-xs {
+        margin-right: -$xs;
+    }
+    .#{$prefix}m-r-n-sm {
+        margin-right: -$sm;
+    }
+    .#{$prefix}m-r-n-md {
+        margin-right: -$md;
+    }
+    .#{$prefix}m-r-n-lg {
+        margin-right: -$lg;
+    }
+    .#{$prefix}m-r-n-xl {
+        margin-right: -$xl;
+    }
+    .#{$prefix}m-r-n-xxl {
+        margin-right: -$xxl;
+    }
+
+
+    .#{$prefix}m-b-none {
+        margin-bottom: 0;
+    }
+    .#{$prefix}m-b-xxs {
+        margin-bottom: $xxs;
+    }
+    .#{$prefix}m-b-xs {
+        margin-bottom: $xs;
+    }
+    .#{$prefix}m-b-sm {
+        margin-bottom: $sm;
+    }
+    .#{$prefix}m-b-md {
+        margin-bottom: $md;
+    }
+    .#{$prefix}m-b-lg {
+        margin-bottom: $lg;
+    }
+    .#{$prefix}m-b-xl {
+        margin-bottom: $xl;
+    }
+    .#{$prefix}m-b-xxl {
+        margin-bottom: $xxl;
+    }
+
+    .#{$prefix}m-b-n-xxs {
+        margin-bottom: -$xxs;
+    }
+    .#{$prefix}m-b-n-xs {
+        margin-bottom: -$xs;
+    }
+    .#{$prefix}m-b-n-sm {
+        margin-bottom: -$sm;
+    }
+    .#{$prefix}m-b-n-md {
+        margin-bottom: -$md;
+    }
+    .#{$prefix}m-b-n-lg {
+        margin-bottom: -$lg;
+    }
+    .#{$prefix}m-b-n-xl {
+        margin-bottom: -$xl;
+    }
+    .#{$prefix}m-b-n-xxl {
+        margin-bottom: -$xxl;
+    }
+
+}

@@ -1,0 +1,42 @@
+@mixin image($prefix) {
+
+    /*
+     * Images
+     */
+
+    .#{$prefix}img-full {
+        width: 100%;
+    }
+
+    .#{$prefix}img-full > img {
+        width: 100%;
+    }
+
+    /*
+     * Image replacement
+     */
+
+    .#{$prefix}img-rpl {
+        background-position: center center;
+        background-repeat: no-repeat;
+        text-indent: -9999px;
+        display: block;
+    }
+
+    /*
+     * Backgrounds
+     */
+
+    .#{$prefix}bg-cover {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .#{$prefix}bg-contain {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+}

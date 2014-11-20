@@ -1,0 +1,20 @@
+@import 'layouts';
+
+@include layouts('');
+
+@media screen and (max-width: $screen-lg) { 
+    @include layouts('lg-'); 
+}
+
+@media screen and (max-width: $screen-md) {
+    @include layouts('md-');
+}
+
+@media screen and (max-width: $screen-sm) {
+    @include layouts('sm-');
+}
+
+@media screen and (max-width: $screen-xs) {
+    @include layouts('xs-');
+}
+

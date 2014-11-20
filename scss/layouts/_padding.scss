@@ -1,0 +1,221 @@
+@mixin padding($prefix) {
+
+    /*
+     * padding helpers
+     */
+
+    .#{$prefix}p-xxs {
+        padding: $xxs;
+    }
+    .#{$prefix}p-xs {
+        padding: $xs;
+    }
+    .#{$prefix}p-sm {
+        padding: $sm;
+    }
+    .#{$prefix}p-md {
+        padding: $md;
+    }
+    .#{$prefix}p-lg {
+        padding: $lg;
+    }
+    .#{$prefix}p-xl {
+        padding: $xl;
+    }
+    .#{$prefix}p-xxl {
+        padding: $xxl;
+    }
+    .#{$prefix}p-n {
+        padding: 0;
+    }
+
+
+    .#{$prefix}p-l-none {
+        padding-left: 0;
+    }
+    .#{$prefix}p-l-xs {
+        padding-left: $xs;
+    }
+    .#{$prefix}p-l-sm {
+        padding-left: $sm;
+    }
+    .#{$prefix}p-l-md {
+        padding-left: $md;
+    }
+    .#{$prefix}p-l-lg {
+        padding-left: $lg;
+    }
+    .#{$prefix}p-l-xl {
+        padding-left: $xl;
+    }
+    .#{$prefix}p-xxl {
+        padding-left: $xxl;
+    }
+
+    .#{$prefix}p-l-n-xxs {
+        padding-left: -$xxs;
+    }
+    .#{$prefix}p-l-n-xs {
+        padding-left: -$xs;
+    }
+    .#{$prefix}p-l-n-sm {
+        padding-left: -$sm;
+    }
+    .#{$prefix}p-l-n-md {
+        padding-left: -$md;
+    }
+    .#{$prefix}p-l-n-lg {
+        padding-left: -$lg;
+    }
+    .#{$prefix}p-l-n-xl {
+        padding-left: -$xl;
+    }
+    .#{$prefix}p-l-xxl {
+        padding-left: -$xxl;
+    }
+
+
+    .#{$prefix}p-t-none {
+        padding-top: 0;
+    }
+    .#{$prefix}p-t-xxs {
+        padding-top: $xxs;
+    }
+    .#{$prefix}p-t-xs {
+        padding-top: $xs;
+    }
+    .#{$prefix}p-t-sm {
+        padding-top: $sm;
+    }
+    .#{$prefix}p-t-md {
+        padding-top: $md;
+    }
+    .#{$prefix}p-t-lg {
+        padding-top: $lg;
+    }
+    .#{$prefix}p-t-xl {
+        padding-top: $xl;
+    }
+    .#{$prefix}p-xxl {
+        padding-top: $xxl;
+    }
+
+    .#{$prefix}p-t-n-xxs {
+        padding-top: -$xxs;
+    }
+    .#{$prefix}p-t-n-xs {
+        padding-top: -$xs;
+    }
+    .#{$prefix}p-t-n-sm {
+        padding-top: -$sm;
+    }
+    .#{$prefix}p-t-n-md {
+        padding-top: -$md;
+    }
+    .#{$prefix}p-t-n-lg {
+        padding-top: -$lg;
+    }
+    .#{$prefix}p-t-n-xl {
+        padding-top: -$xl;
+    }
+    .#{$prefix}p-t-n-xxl {
+        padding-top: -$xxl;
+    }
+
+
+    .#{$prefix}p-r-none {
+        padding-right: 0;
+    }
+    .#{$prefix}p-r-xxs {
+        padding-right: $xxs;
+    }
+    .#{$prefix}p-r-xs {
+        padding-right: $xs;
+    }
+    .#{$prefix}p-r-sm {
+        padding-right: $sm;
+    }
+    .#{$prefix}p-r-md {
+        padding-right: $md;
+    }
+    .#{$prefix}p-r-lg {
+        padding-right: $lg;
+    }
+    .#{$prefix}p-r-xl {
+        padding-right: $xl;
+    }
+    .#{$prefix}p-r-xxl {
+        padding-right: $xxl;
+    }
+
+    .#{$prefix}p-r-n-xxs {
+        padding-right: -$xxs;
+    }
+    .#{$prefix}p-r-n-xs {
+        padding-right: -$xs;
+    }
+    .#{$prefix}p-r-n-sm {
+        padding-right: -$sm;
+    }
+    .#{$prefix}p-r-n-md {
+        padding-right: -$md;
+    }
+    .#{$prefix}p-r-n-lg {
+        padding-right: -$lg;
+    }
+    .#{$prefix}p-r-n-xl {
+        padding-right: -$xl;
+    }
+    .#{$prefix}p-r-n-xxl {
+        padding-right: -$xxl;
+    }
+
+
+    .#{$prefix}p-b-none {
+        padding-bottom: 0;
+    }
+    .#{$prefix}p-b-xxs {
+        padding-bottom: $xxs;
+    }
+    .#{$prefix}p-b-xs {
+        padding-bottom: $xs;
+    }
+    .#{$prefix}p-b-sm {
+        padding-bottom: $sm;
+    }
+    .#{$prefix}p-b-md {
+        padding-bottom: $md;
+    }
+    .#{$prefix}p-b-lg {
+        padding-bottom: $lg;
+    }
+    .#{$prefix}p-b-xl {
+        padding-bottom: $xl;
+    }
+    .#{$prefix}p-b-xxl {
+        padding-bottom: $xxl;
+    }
+
+    .#{$prefix}p-b-n-xxs {
+        padding-bottom: -$xxs;
+    }
+    .#{$prefix}p-b-n-xs {
+        padding-bottom: -$xs;
+    }
+    .#{$prefix}p-b-n-sm {
+        padding-bottom: -$sm;
+    }
+    .#{$prefix}p-b-n-md {
+        padding-bottom: -$md;
+    }
+    .#{$prefix}p-b-n-lg {
+        padding-bottom: -$lg;
+    }
+    .#{$prefix}p-b-n-xl {
+        padding-bottom: -$xl;
+    }
+    .#{$prefix}p-b-n-xxl {
+        padding-bottom: -$xxl;
+    }
+
+}

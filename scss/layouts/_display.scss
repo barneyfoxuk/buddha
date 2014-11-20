@@ -1,0 +1,27 @@
+@mixin display($prefix) {
+    
+    /*
+     * Display
+     */
+
+    .#{$prefix}display-block {
+        display: block;
+    }
+
+    .#{$prefix}display-inline {
+        display: inline-block;
+    }
+    
+    .#{$prefix}display-none {
+        display: none;
+    }
+
+    .#{$prefix}display-full-width {
+        width: 100%;
+    }
+
+    .#{$prefix}display-max-width {
+        width: 100%;
+    }
+
+}

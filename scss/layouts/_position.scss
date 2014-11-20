@@ -1,0 +1,212 @@
+@mixin position($prefix) {
+
+    /*
+     * Position type
+     */
+
+    .#{$prefix}pos-fixed {
+        position: fixed;
+    }
+
+    .#{$prefix}pos-abs {
+        position: absolute;
+    }
+
+    .#{$prefix}pos-rel {
+        position: relative;
+    }
+
+
+    /*
+     * Position values
+     */
+
+    .#{$prefix}pos-l-none {
+        left: 0;
+    }
+    .#{$prefix}pos-l-xs {
+        left: $xs;
+    }
+    .#{$prefix}pos-l-sm {
+        left: $sm;
+    }
+    .#{$prefix}pos-l-md {
+        left: $md;
+    }
+    .#{$prefix}pos-l-lg {
+        left: $lg;
+    }
+    .#{$prefix}pos-l-xl {
+        left: $xl;
+    }
+    .#{$prefix}pos-xxl {
+        left: $xxl;
+    }
+
+    .#{$prefix}pos-l-n-xxs {
+        left: -$xxs;
+    }
+    .#{$prefix}pos-l-n-xs {
+        left: -$xs;
+    }
+    .#{$prefix}pos-l-n-sm {
+        left: -$sm;
+    }
+    .#{$prefix}pos-l-n-md {
+        left: -$md;
+    }
+    .#{$prefix}pos-l-n-lg {
+        left: -$lg;
+    }
+    .#{$prefix}pos-l-n-xl {
+        left: -$xl;
+    }
+    .#{$prefix}pos-l-n-xxl {
+        left: -$xxl;
+    }
+
+
+    .#{$prefix}pos-t-none {
+        top: 0;
+    }
+    .#{$prefix}pos-t-xxs {
+        top: $xxs;
+    }
+    .#{$prefix}pos-t-xs {
+        top: $xs;
+    }
+    .#{$prefix}pos-t-sm {
+        top: $sm;
+    }
+    .#{$prefix}pos-t-md {
+        top: $md;
+    }
+    .#{$prefix}pos-t-lg {
+        top: $lg;
+    }
+    .#{$prefix}pos-t-xl {
+        top: $xl;
+    }
+    .#{$prefix}pos-t-xxl {
+        top: $xxl;
+    }
+
+    .#{$prefix}pos-t-n-xxs {
+        top: -$xxs;
+    }
+    .#{$prefix}pos-t-n-xs {
+        top: -$xs;
+    }
+    .#{$prefix}pos-t-n-sm {
+        top: -$sm;
+    }
+    .#{$prefix}pos-t-n-md {
+        top: -$md;
+    }
+    .#{$prefix}pos-t-n-lg {
+        top: -$lg;
+    }
+    .#{$prefix}pos-t-n-xl {
+        top: -$xl;
+    }
+    .#{$prefix}pos-t-n-xxl {
+        top: -$xxl;
+    }
+
+
+    .#{$prefix}pos-r-none {
+        right: 0;
+    }
+    .#{$prefix}pos-r-xxs {
+        right: $xxs;
+    }
+    .#{$prefix}pos-r-xs {
+        right: $xs;
+    }
+    .#{$prefix}pos-r-sm {
+        right: $sm;
+    }
+    .#{$prefix}pos-r-md {
+        right: $md;
+    }
+    .#{$prefix}pos-r-lg {
+        right: $lg;
+    }
+    .#{$prefix}pos-r-xl {
+        right: $xl;
+    }
+    .#{$prefix}pos-r-xxl {
+        right: $xxl;
+    }
+
+    .#{$prefix}pos-r-n-xxs {
+        right: -$xxs;
+    }
+    .#{$prefix}pos-r-n-xs {
+        right: -$xs;
+    }
+    .#{$prefix}pos-r-n-sm {
+        right: -$sm;
+    }
+    .#{$prefix}pos-r-n-md {
+        right: -$md;
+    }
+    .#{$prefix}pos-r-n-lg {
+        right: -$lg;
+    }
+    .#{$prefix}pos-r-n-xl {
+        right: -$xl;
+    }
+    .#{$prefix}pos-r-n-xxl {
+        right: -$xxl;
+    }
+
+
+    .#{$prefix}pos-b-none {
+        bottom: 0;
+    }
+    .#{$prefix}pos-b-xxs {
+        bottom: $xxs;
+    }
+    .#{$prefix}pos-b-xs {
+        bottom: $xs;
+    }
+    .#{$prefix}pos-b-sm {
+        bottom: $sm;
+    }
+    .#{$prefix}pos-b-md {
+        bottom: $md;
+    }
+    .#{$prefix}pos-b-lg {
+        bottom: $lg;
+    }
+    .#{$prefix}pos-b-xl {
+        bottom: $xl;
+    }
+    .#{$prefix}pos-b-xxl {
+        bottom: $xxl;
+    }
+
+    .#{$prefix}pos-b-n-xxs {
+        bottom: -$xxs;
+    }
+    .#{$prefix}pos-b-n-xs {
+        bottom: -$xs;
+    }
+    .#{$prefix}pos-b-n-sm {
+        bottom: -$sm;
+    }
+    .#{$prefix}pos-b-n-md {
+        bottom: -$md;
+    }
+    .#{$prefix}pos-b-n-lg {
+        bottom: -$lg;
+    }
+    .#{$prefix}pos-b-n-xl {
+        bottom: -$xl;
+    }
+    .#{$prefix}pos-b-n-xxl {
+        bottom: -$xxl;
+    }
+
+}

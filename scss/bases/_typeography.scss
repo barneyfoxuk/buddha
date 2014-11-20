@@ -1,0 +1,65 @@
+/*
+ * base
+ */
+
+div, p {
+    font-family: $font-family-body;
+}
+
+
+h1 {
+    font-family: $font-family-heading;
+}
+
+h2 {
+    font-family: $font-family-heading;
+}
+
+h3 {
+    font-family: $font-family-heading;
+}
+
+h4 {
+    font-family: $font-family-heading;
+}
+
+h5 {
+    font-family: $font-family-body;
+}
+
+h6 {
+    font-family: $font-family-body;
+}
+
+
+/*
+ * Weight
+ */
+
+.font-normal {
+  font-weight: normal;
+}
+.font-thin {
+  font-weight: $font-thin;
+}
+.font-bold {
+  font-weight: $font-bold;
+}
+
+
+/*
+ * Size
+ */
+
+.text-lg {
+  font-size: $text-lg;
+}
+.text-md {
+  font-size: $text-md;
+}
+.text-sm {
+  font-size: $text-sm;
+}
+.text-xs {
+  font-size: $text-xs;
+}
